@@ -8,26 +8,35 @@ h1 {
 }
 
 h2 {
-  color: #3CBBB1;
+  color: #85c056;
   font-size: 20px;
   font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   margin-bottom: 40px;
 }
 
+h3 {
+  color: #679289;
+  font-size: 15px;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  font-style: italic;
+}
+
 a {
-  color: #FFB238;
+  color: #1D7874;
   text-decoration: none;
   font-size: 30px;
 }
 
 a:hover {
-  color: black;
+  color: #DA4167;
   text-decoration: underline;
 }
 
 body {
-  background-color: #FAA275;
+  background-image: url(images/tropical.jpg);
+  color: white;
 }
 
 p {
@@ -35,10 +44,11 @@ p {
     font-size: 14px;
     font-family: 'Dosis', sans-serif;
     margin-bottom: 40px;
+
 }
 
 .container {
-  margin: 0px auto;
+  margin: 50px auto;
 }
 
 .card-white {
@@ -47,7 +57,7 @@ p {
   border-radius: 5px;
   box-shadow: 2px 2px 2px lightgrey;
   padding: 40px;
-  margin: 20px 30px;
+  margin: 30px 200px;
   text-align: center;
 }
 
@@ -55,17 +65,19 @@ p {
   border-radius: 50px;
 }
 
-.btn-orange{
-  background-color: #FFB238;
+.btn-blue{
+  background-color: #468C98;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
   font-size: 15px;
+  font-family: 'Dosis', sans-serif;
 }
 
-.btn-orange:hover{
-  color: red;
+.btn-blue:hover{
+  color: #E8DCB9;
   text-decoration: underline;
+  font-family: 'Dosis', sans-serif;
 }
 
 .list-inline{
